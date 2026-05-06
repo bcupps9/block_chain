@@ -1,0 +1,31 @@
+# Build artifacts
+build/
+build-*/
+*.o
+*.obj
+*.a
+*.so
+*.dylib
+
+# Editor/IDE
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# Version control
+.git/
+.gitignore
+.gitattributes
+
+# CI/CD
+.github/
+
+# Docker itself (no point shipping the Dockerfile into the image)
+Dockerfile*
+.dockerignore
+compose.yaml
+
+# Misc
+*.log
+*.tmp
