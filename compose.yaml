@@ -1,0 +1,9 @@
+services:
+  dev:
+    build:
+      context: .
+      dockerfile: Dockerfile.dev
+    volumes:
+      - .:/workspace
+    working_dir: /workspace
+    user: "${UID:-1000}:${GID:-1000}"

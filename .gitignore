@@ -52,6 +52,11 @@ Makefile
 install_manifest.txt
 compile_commands.json
 
+# Editor / IDE
+.vscode/
+.idea/
+.DS_Store
+
 # Temporary files
 *.tmp
 *.log

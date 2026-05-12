@@ -4,9 +4,9 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     build-essential cmake ninja-build git \
     && rm -rf /var/lib/apt/lists/*
 
-WORKDIR /src
+WORKDIR /workspace
 COPY . .
 RUN cmake -B build -G Ninja -DCMAKE_BUILD_TYPE=Release \
     && cmake --build build
 
-CMD ["./build/block_chain"]
+CMD ["./build/run_sim"]
