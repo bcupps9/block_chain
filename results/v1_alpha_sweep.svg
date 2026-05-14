@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760.00" height="440.00" viewBox="0 0 760.00 440.00">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="24" y="24" font-family="Arial" font-size="18" font-weight="700">v1 selfish-mining alpha sweep</text>
+<line x1="68.00" y1="358.00" x2="708.00" y2="358.00" stroke="#222"/>
+<line x1="68.00" y1="28.00" x2="68.00" y2="358.00" stroke="#222"/>
+<line x1="68.00" y1="358.00" x2="708.00" y2="358.00" stroke="#e5e5e5"/>
+<text x="24" y="362.00" font-family="Arial" font-size="11" fill="#555">0.00</text>
+<line x1="68.00" y1="316.75" x2="708.00" y2="316.75" stroke="#e5e5e5"/>
+<text x="24" y="320.75" font-family="Arial" font-size="11" fill="#555">0.10</text>
+<line x1="68.00" y1="275.50" x2="708.00" y2="275.50" stroke="#e5e5e5"/>
+<text x="24" y="279.50" font-family="Arial" font-size="11" fill="#555">0.20</text>
+<line x1="68.00" y1="234.25" x2="708.00" y2="234.25" stroke="#e5e5e5"/>
+<text x="24" y="238.25" font-family="Arial" font-size="11" fill="#555">0.30</text>
+<line x1="68.00" y1="193.00" x2="708.00" y2="193.00" stroke="#e5e5e5"/>
+<text x="24" y="197.00" font-family="Arial" font-size="11" fill="#555">0.40</text>
+<line x1="68.00" y1="151.75" x2="708.00" y2="151.75" stroke="#e5e5e5"/>
+<text x="24" y="155.75" font-family="Arial" font-size="11" fill="#555">0.50</text>
+<line x1="68.00" y1="110.50" x2="708.00" y2="110.50" stroke="#e5e5e5"/>
+<text x="24" y="114.50" font-family="Arial" font-size="11" fill="#555">0.60</text>
+<line x1="68.00" y1="69.25" x2="708.00" y2="69.25" stroke="#e5e5e5"/>
+<text x="24" y="73.25" font-family="Arial" font-size="11" fill="#555">0.70</text>
+<line x1="68.00" y1="28.00" x2="708.00" y2="28.00" stroke="#e5e5e5"/>
+<text x="24" y="32.00" font-family="Arial" font-size="11" fill="#555">0.80</text>
+<polyline fill="none" stroke="#888" stroke-width="2" stroke-dasharray="6 5" points="68.00,337.38 148.00,316.75 228.00,296.12 308.00,275.50 388.00,254.88 468.00,234.25 548.00,213.62 628.00,193.00 708.00,172.38 "/>
+<polyline fill="none" stroke="#0b5cad" stroke-width="3" points="68.00,354.21 148.00,343.53 228.00,326.06 308.00,304.37 388.00,277.04 468.00,243.51 548.00,206.21 628.00,155.57 708.00,87.31 "/>
+<circle cx="68.00" cy="354.21" r="4" fill="#0b5cad"/>
+<text x="58.00" y="382.00" font-family="Arial" font-size="11" fill="#555">0.05</text>
+<circle cx="148.00" cy="343.53" r="4" fill="#0b5cad"/>
+<text x="138.00" y="382.00" font-family="Arial" font-size="11" fill="#555">0.10</text>
+<circle cx="228.00" cy="326.06" r="4" fill="#0b5cad"/>
+<text x="218.00" y="382.00" font-family="Arial" font-size="11" fill="#555">0.15</text>
+<circle cx="308.00" cy="304.37" r="4" fill="#0b5cad"/>
+<text x="298.00" y="382.00" font-family="Arial" font-size="11" fill="#555">0.20</text>
+<circle cx="388.00" cy="277.04" r="4" fill="#0b5cad"/>
+<text x="378.00" y="382.00" font-family="Arial" font-size="11" fill="#555">0.25</text>
+<circle cx="468.00" cy="243.51" r="4" fill="#0b5cad"/>
+<text x="458.00" y="382.00" font-family="Arial" font-size="11" fill="#555">0.30</text>
+<circle cx="548.00" cy="206.21" r="4" fill="#0b5cad"/>
+<text x="538.00" y="382.00" font-family="Arial" font-size="11" fill="#555">0.35</text>
+<circle cx="628.00" cy="155.57" r="4" fill="#0b5cad"/>
+<text x="618.00" y="382.00" font-family="Arial" font-size="11" fill="#555">0.40</text>
+<circle cx="708.00" cy="87.31" r="4" fill="#0b5cad"/>
+<text x="698.00" y="382.00" font-family="Arial" font-size="11" fill="#555">0.45</text>
+<text x="343.00" y="422.00" font-family="Arial" font-size="13">alpha</text>
+<text x="-250" y="16" transform="rotate(-90)" font-family="Arial" font-size="13">selfish revenue share</text>
+<rect x="500" y="40" width="14" height="3" fill="#0b5cad"/><text x="522" y="46" font-family="Arial" font-size="12">observed mean</text>
+<line x1="500" y1="64" x2="514" y2="64" stroke="#888" stroke-width="2" stroke-dasharray="6 5"/><text x="522" y="68" font-family="Arial" font-size="12">fair share</text>
+</svg>

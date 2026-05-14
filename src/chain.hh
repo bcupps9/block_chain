@@ -31,6 +31,7 @@ public:
     bool        knows(BlockHash h) const;
     BlockHash   tip() const { return tip_; }
     BlockHeight tip_height() const;
+    std::size_t block_count() const { return blocks_.size(); }
     const Block& get(BlockHash h) const;
 
     // Walk from tip back to genesis, returning hashes tip-first.

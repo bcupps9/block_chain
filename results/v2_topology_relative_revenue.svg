@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840.00" height="440.00" viewBox="0 0 840.00 440.00">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="24" y="24" font-family="Arial" font-size="18" font-weight="700">v2 topology comparison</text>
+<line x1="70.00" y1="352.00" x2="770.00" y2="352.00" stroke="#222"/>
+<line x1="70.00" y1="32.00" x2="70.00" y2="352.00" stroke="#222"/>
+<line x1="70.00" y1="352.00" x2="770.00" y2="352.00" stroke="#e5e5e5"/>
+<text x="28" y="356.00" font-family="Arial" font-size="11" fill="#555">0.00</text>
+<line x1="70.00" y1="306.29" x2="770.00" y2="306.29" stroke="#e5e5e5"/>
+<text x="28" y="310.29" font-family="Arial" font-size="11" fill="#555">0.20</text>
+<line x1="70.00" y1="260.57" x2="770.00" y2="260.57" stroke="#e5e5e5"/>
+<text x="28" y="264.57" font-family="Arial" font-size="11" fill="#555">0.40</text>
+<line x1="70.00" y1="214.86" x2="770.00" y2="214.86" stroke="#e5e5e5"/>
+<text x="28" y="218.86" font-family="Arial" font-size="11" fill="#555">0.60</text>
+<line x1="70.00" y1="169.14" x2="770.00" y2="169.14" stroke="#e5e5e5"/>
+<text x="28" y="173.14" font-family="Arial" font-size="11" fill="#555">0.80</text>
+<line x1="70.00" y1="123.43" x2="770.00" y2="123.43" stroke="#e5e5e5"/>
+<text x="28" y="127.43" font-family="Arial" font-size="11" fill="#555">1.00</text>
+<line x1="70.00" y1="77.71" x2="770.00" y2="77.71" stroke="#e5e5e5"/>
+<text x="28" y="81.71" font-family="Arial" font-size="11" fill="#555">1.20</text>
+<line x1="70.00" y1="32.00" x2="770.00" y2="32.00" stroke="#e5e5e5"/>
+<text x="28" y="36.00" font-family="Arial" font-size="11" fill="#555">1.40</text>
+<line x1="70.00" y1="123.43" x2="770.00" y2="123.43" stroke="#888" stroke-width="2" stroke-dasharray="6 5"/>
+<rect x="96.60" y="114.31" width="86.80" height="237.69" fill="#127c56"/>
+<text x="124.00" y="108.31" font-family="Arial" font-size="11" fill="#333">1.04</text>
+<text x="86.60" y="374.00" transform="rotate(25 86.60 374.00)" font-family="Arial" font-size="11" fill="#555">complete</text>
+<rect x="236.60" y="98.43" width="86.80" height="253.57" fill="#127c56"/>
+<text x="264.00" y="92.43" font-family="Arial" font-size="11" fill="#333">1.11</text>
+<text x="226.60" y="374.00" transform="rotate(25 226.60 374.00)" font-family="Arial" font-size="11" fill="#555">ring</text>
+<rect x="376.60" y="110.65" width="86.80" height="241.35" fill="#127c56"/>
+<text x="404.00" y="104.65" font-family="Arial" font-size="11" fill="#333">1.06</text>
+<text x="366.60" y="374.00" transform="rotate(25 366.60 374.00)" font-family="Arial" font-size="11" fill="#555">random_regular</text>
+<rect x="516.60" y="96.50" width="86.80" height="255.50" fill="#127c56"/>
+<text x="544.00" y="90.50" font-family="Arial" font-size="11" fill="#333">1.12</text>
+<text x="506.60" y="374.00" transform="rotate(25 506.60 374.00)" font-family="Arial" font-size="11" fill="#555">two_community_bridge</text>
+<rect x="656.60" y="56.16" width="86.80" height="295.84" fill="#127c56"/>
+<text x="684.00" y="50.16" font-family="Arial" font-size="11" fill="#333">1.29</text>
+<text x="646.60" y="374.00" transform="rotate(25 646.60 374.00)" font-family="Arial" font-size="11" fill="#555">hub_spoke</text>
+<text x="-255" y="16" transform="rotate(-90)" font-family="Arial" font-size="13">selfish relative revenue</text>
+</svg>

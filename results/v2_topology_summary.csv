@@ -1,0 +1,6 @@
+topology,parameter,alpha,samples,mean_selfish_revenue_share,mean_relative_revenue,relative_revenue_stderr,mean_stale_rate
+complete,,0.350000,20,0.363964,1.039897,0.007291,0.249423
+ring,,0.350000,20,0.388285,1.109384,0.012983,0.258792
+random_regular,k=4,0.350000,20,0.369561,1.055888,0.008282,0.253294
+two_community_bridge,bridges=2,0.350000,20,0.391228,1.117794,0.006962,0.252901
+hub_spoke,selfish_hub,0.350000,20,0.453011,1.294316,0.006109,0.253143

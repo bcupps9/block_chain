@@ -1,0 +1,55 @@
+% Requires: \usepackage{booktabs}
+
+\begin{table}[htbp]
+\centering
+\caption{Selfish-mining performance over selfish hashpower on the complete graph. Each row averages 20 seeds with horizon 5000 and latency 0.01. Relative revenue is the selfish revenue share divided by $\alpha$; values above 1.0 indicate that selfish mining outperformed fair-share honest mining.}
+\label{tab:v1-alpha-sweep}
+\begin{tabular}{rrrrr}
+\toprule
+$\alpha$ & Selfish revenue share & Relative revenue & Std. error & Stale rate \\
+\midrule
+0.05 & 0.009 & 0.184 & 0.010 & 0.052 \\
+0.10 & 0.035 & 0.351 & 0.009 & 0.090 \\
+0.15 & 0.077 & 0.516 & 0.010 & 0.124 \\
+0.20 & 0.130 & 0.650 & 0.010 & 0.154 \\
+0.25 & 0.196 & 0.785 & 0.010 & 0.185 \\
+0.30 & 0.278 & 0.925 & 0.009 & 0.218 \\
+0.35 & 0.368 & 1.051 & 0.008 & 0.254 \\
+0.40 & 0.491 & 1.227 & 0.011 & 0.301 \\
+0.45 & 0.656 & 1.458 & 0.017 & 0.371 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[htbp]
+\centering
+\caption{Effect of public network topology on selfish-mining performance at $\alpha = 0.35$. Each row averages 20 seeds with horizon 5000 and latency 0.01.}
+\label{tab:v2-topology-sweep}
+\begin{tabular}{llrrrr}
+\toprule
+Topology & Parameter & Selfish revenue share & Relative revenue & Std. error & Stale rate \\
+\midrule
+Complete & -- & 0.364 & 1.040 & 0.007 & 0.249 \\
+Ring & -- & 0.388 & 1.109 & 0.013 & 0.259 \\
+Random regular & $k = 4$ & 0.370 & 1.056 & 0.008 & 0.253 \\
+Two-community bridge & 2 bridges & 0.391 & 1.118 & 0.007 & 0.253 \\
+Hub-spoke & selfish hub & 0.453 & 1.294 & 0.006 & 0.253 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[htbp]
+\centering
+\caption{Main experimental takeaways from the v1 and v2 sweeps.}
+\label{tab:main-takeaways}
+\begin{tabular}{ll}
+\toprule
+Criterion & Result \\
+\midrule
+First tested profitable $\alpha$ on complete graph & $\alpha = 0.35$ \\
+Best tested v2 topology & Hub-spoke with selfish pool as hub \\
+Highest observed relative revenue & 1.294 \\
+Highest observed stale rate & Ring topology, 0.259 \\
+\bottomrule
+\end{tabular}
+\end{table}

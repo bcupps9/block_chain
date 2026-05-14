@@ -15,6 +15,14 @@
 // events.
 class Simulator {
 public:
+    struct Stats {
+        std::uint64_t              canonical_blocks = 0;
+        std::vector<std::uint64_t> blocks_per_miner;
+        std::uint64_t              observer_known_blocks = 0;
+        std::uint64_t              stale_blocks = 0;
+        double                     stale_rate = 0.0;
+    };
+
     explicit Simulator(std::uint64_t seed = 1);
 
     // --- DES core ---
@@ -39,6 +47,7 @@ public:
     void start_all_mining();
 
     // --- Stats ---
+    Stats stats() const;
     void print_leaderboard() const;
 
 private:
@@ -47,6 +56,16 @@ private:
     void on_block_received(NodeId receiver, Block b, NodeId from);
 
     void start_mining_for(NodeId i);
+
+    // Helpers for the strategy dispatch.
+    void gossip_block(NodeId from, const Block& b);
+    void handle_selfish_mined(NodeId miner, const Block& b);
+    void handle_selfish_received(NodeId receiver, const Block& honest_block);
+
+    // Walk chain.tip() backward collecting blocks in unpublished_private,
+    // returned genesis-first so they can be broadcast in order.
+    std::vector<BlockHash> unpublished_private_blocks(NodeId selfish) const;
+    void publish_private_blocks(NodeId selfish, const std::vector<BlockHash>& blocks);
 
     struct PQEntry {
         Time                   t;
